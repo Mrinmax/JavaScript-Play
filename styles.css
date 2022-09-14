@@ -1,0 +1,84 @@
+/* ============index styles ============ */
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.12rem;
+  overflow: hidden;
+}
+
+.red {
+  margin-left: 10px;
+}
+
+.red > input {
+  margin-left: 8px;
+}
+
+.green > input {
+  margin-left: 8px;
+}
+
+.blue {
+  margin-right: 10px;
+}
+
+.blue > input {
+  margin-left: 8px;
+}
+
+.circles {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.circles > input {
+  margin-left: 8px;
+  width: 10%;
+}
+
+.submit {
+  display: flex;
+  justify-content: center;
+  margin-top: 7rem;
+}
+
+/*==================showcase styles ==========*/
+
+.container {
+  height: 540px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.red1 > span {
+  height: 70px;
+  width: 70px;
+  background-color: red;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.green1 > span {
+  height: 70px;
+  width: 70px;
+  background-color: green;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.blue1 > span {
+  height: 70px;
+  width: 70px;
+  background-color: blue;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.button {
+  display: flex;
+  justify-content: space-evenly;
+}
