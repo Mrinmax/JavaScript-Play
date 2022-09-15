@@ -50,6 +50,7 @@
   height: 540px;
   width: 100%;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
@@ -71,8 +72,8 @@
 }
 
 .blue1 > span {
-  height: 70px;
-  width: 70px;
+  height: 65px;
+  width: 65px;
   background-color: blue;
   border-radius: 50%;
   display: inline-block;
